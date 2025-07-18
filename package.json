@@ -1,0 +1,13 @@
+{
+  "name": "react-crud",
+  "version": "1.0.0",
+  "description": "A simple RESTful API for managing notes, built with **Node.js**, **Express**, and **MongoDB (Mongoose)**.",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix server && npm install --prefix client/vite-project && npm run build --prefix client/vite-project",
+    "start": "npm run start --prefix server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
